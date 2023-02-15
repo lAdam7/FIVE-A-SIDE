@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "scheme": "com.lyon2077.fiveaside",
+    "name": "FIVE-A-SIDE",
+    "slug": "FIVE-A-SIDE",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "plugins": ["@react-native-google-signin/google-signin"],
+    "splash": {
+      "image": "./assets/app-starting.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#21A361"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lyon2077.FIVEASIDE",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FF0000"
+      },
+      "package": "com.lyon2077.FIVEASIDE",
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": ""
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
